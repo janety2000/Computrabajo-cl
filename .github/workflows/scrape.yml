@@ -11,7 +11,7 @@ on:
     # been scraped, the script exits almost instantly (it sees
     # cl_SCRAPE_COMPLETE.flag and returns), so these scheduled ticks
     # become a harmless no-op that costs a few seconds of Actions minutes.
-    - cron: "0 */3 * * *"
+    - cron: "29 2,8,14,20 * * *"
 
 concurrency:
   # This MUST be unique per country. If every country workflow shared
